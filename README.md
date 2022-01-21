@@ -1,4 +1,4 @@
-# arrayofclicks
+# Array of clicks
 
 
 ## Install Packages
