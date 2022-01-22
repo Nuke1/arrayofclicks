@@ -55,6 +55,8 @@ The DataSet looks like this:
 ### Assumptions: 
 
 * The dataset can contain data of different dates as well.
+* It was not mentioned, The data would come in sorted order.
+* It was not mentioned, The resultset should contain data in sorted manner.
 
 ### Data Structures
 
