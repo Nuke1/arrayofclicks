@@ -36,9 +36,18 @@ const setDateMap = (dateMap, click, period) => {
 
 const setIpMap = (ipMap, click) => {
     let prevClick = ipMap.get(click.ip)
-    if (prevClick && prevClick.amount >= click.amount) {
+    if (prevClick && prevClick.amount > click.amount) {
         return ipMap
-    } 
+    }
+    else if (prevClick && prevClick.amount == click.amount) {
+        if (prevClick.timestamp > click.timestamp) {
+            ipMap.set(click.ip, {
+                timestamp: click.timestamp,
+                amount: click.amount
+            })
+        }
+        return ipMap
+    }
     else {
         ipMap.set(click.ip, {
             timestamp: click.timestamp,
