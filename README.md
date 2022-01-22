@@ -1,12 +1,19 @@
 # Array of clicks
 
-
 ## Install Packages
+
+```
 npm i
-
+```
 ## Run test cases
-npm test
 
-## Additional Dependencies/Packages used
-Moment - To parse Timestamp and get period.  https://momentjs.com/
-Jest - For Unit testing   https://jestjs.io/
+```
+npm test
+```
+
+## Additional Dependencies
+```
+* [Moment](https://momentjs.com/) - To parse Timestamp and get period
+
+* [Jest](https://jestjs.io/) - For Unit testing   
+```
