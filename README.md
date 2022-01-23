@@ -49,7 +49,7 @@ The DataSet looks like this:
     { "ip": "55.55.55.55", "timestamp": "3/11/2020 13:42:24", "amount": 8.00 },
     { "ip": "33.33.33.33", "timestamp": "4/11/2020 15:42:24", "amount": 2.00 },
 ]
-]
+
 ```
 
 ### Assumptions: 
