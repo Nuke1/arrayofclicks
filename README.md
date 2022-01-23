@@ -74,7 +74,7 @@ For above mentioned dataset, the data structures would look like this:
 
 - To handle other requirements, nested hashmaps are used.
 
-date -> period -> ip -> {timestamp, amount} 
+date -> (period - 1) -> ip -> {timestamp, amount} 
 
 ```
 {
