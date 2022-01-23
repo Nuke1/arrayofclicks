@@ -23,9 +23,9 @@ The result set should be stored in a list. Each map represents a click. The expe
 
 
 ### Definitions
-A click ​is the composite of an IP address, a timestamp, and a click amount. 
-Duplicate clicks​ are clicks that have the same IP address, regardless of timestamp or click amount. 
-Click periods​ are defined as the one hour spans that start at the top of the hour. So, in one day, there are 24 periods and they are broken down as follows (in HH:MM:SS format): 
+- A click ​is the composite of an IP address, a timestamp, and a click amount. 
+- Duplicate clicks​ are clicks that have the same IP address, regardless of timestamp or click amount. 
+- Click periods​ are defined as the one hour spans that start at the top of the hour. So, in one day, there are 24 periods and they are broken down as follows (in HH:MM:SS format): 
 
 ```
 00:00:00 ­ 00:59:59 (period 1) 
@@ -89,7 +89,7 @@ date -> period -> ip -> {timestamp, amount}
                 "amount": 6.50
             }
         },
-        "11" : {
+        "13" : {
             "55.55.55.55": {
                 "timestamp": "3/11/2020 13:33:34", 
                 "amount": 8.00
